@@ -1,7 +1,7 @@
 body {
-    border: 5px solid red; 
+    border: 5px solid orange; 
     border-radius: 5px;
 }
 h1 {
-    color: blue;
+    font-weight: bold;
 }
