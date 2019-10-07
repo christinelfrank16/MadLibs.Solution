@@ -15,7 +15,7 @@ namespace MadLib.Controllers
       public ActionResult HalloweenForm() { return View(); }
 
       [Route("/hstory")]
-      public ActionResult HalloweenS(string noun, string verb_ing, string noun2, string noun3, string bodypart, string noun4, string verb_ing2, string bodypart_pl, string verb_ing3, string furniture, string noun_pl, string noun5, string bodypart2, string adverb, string bodypart3)
+      public ActionResult Halloween(string noun, string verb_ing, string noun2, string noun3, string bodypart, string noun4, string verb_ing2, string bodypart_pl, string verb_ing3, string furniture, string noun_pl, string noun5, string bodypart2, string adverb, string bodypart3)
       {
           MadLibEntries entries = new MadLibEntries();
           entries.Noun = noun;
