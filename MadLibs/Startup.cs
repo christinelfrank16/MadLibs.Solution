@@ -30,12 +30,12 @@ namespace MadLib
           name: "default",
           template: "{controller=Home}/{action=Index}/{id?}");
       });
+      app.UseStaticFiles();  // enable use of static files from wwwroot folder -> css styling
 
       app.Run(async (context) =>
       {
         await context.Response.WriteAsync("Error. Sorry, please come again.");
       });
-
       app.UseDeveloperExceptionPage();
     }
 
